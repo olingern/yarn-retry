@@ -9,3 +9,9 @@ This is a proof of concept to address issue [#7663](https://github.com/yarnpkg/y
 ## Usage
 
 Copy `yarn-retry.sh` and place in your project. Your CI command should now use this script to handle retries.
+
+## Running the simulation
+
+1. Clone the repo
+2. Run the server: `node ./app.js`
+3. Run the script: `./yarn-retry.sh`
